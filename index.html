@@ -25,6 +25,15 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  
+  <style>    
+    /* Create four equal columns that floats next to each other */
+    .column_custom {
+      float:left;
+      width: 25%;
+      padding: 10px;
+    }
+    </style>
 </head>
 <body>
 
@@ -117,10 +126,10 @@
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -151,6 +160,79 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-4">Results on Replica</h2>
+      <div class="content is-centered">
+        <p>
+          top left: rendered RGB; top right: rendered depth;
+        </p> 
+        <p>
+          bottom left: PCA of instance feature; bottom right: PCA of semantic feature.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_0.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_1.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_2.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_3.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_4.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_0.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_1.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom">
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_2.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
