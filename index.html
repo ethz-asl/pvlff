@@ -25,6 +25,15 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  
+  <style>    
+    /* Create four equal columns that floats next to each other */
+    .column_custom {
+      float:left;
+      width: 50%;
+      padding: 10px;
+    }
+    </style>
 </head>
 <body>
 
@@ -61,15 +70,15 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="TODO"
+              <span class="link-block">
+                <a href="https://doi.org/10.1109/LRA.2024.3354624"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
-              </span> -->
+              </span>
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2309.05448"
                    class="external-link button is-normal is-rounded is-dark">
@@ -80,15 +89,15 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="TODO"
+              <span class="link-block">
+                <a href="https://youtu.be/mZoujkg_axE?si=AExcpTc15Pfo5gE2"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
                   <span>Video</span>
                 </a>
-              </span> -->
+              </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/ethz-asl/pvlff"
@@ -117,10 +126,10 @@
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -138,19 +147,103 @@
     </div>
 
     <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/XfNLsl8ATNY?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/mZoujkg_axE?si=AExcpTc15Pfo5gE2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
-    </div> -->
+    </div>
     <!--/ Paper video. -->
   </div>
 </section>
 
+<section class="section">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-4">Results on Replica</h2>
+      <div class="table-div">
+        <div>
+          <span align="center"><u>Top left</u>: <br/>Rendered RGB;</span>
+          <span align="center"><u>Top middle</u>: <br/>PCA of semantic feature;</span>
+          <span align="center"><u>Top right</u>: <br/>Semantic segmentation;</span>
+        </div> 
+        <div>
+          <span align="center"><u>Bottom left</u>: <br/>Rendered depth;</span>
+          <span align="center"><u>Bottom middle</u>: <br/>PCA of instance feature;</span>
+          <span align="center"><u>Bottom right</u>: <br/>Instance segmentation.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="column_custom has-text-centered">
+      <p><tt>office_0</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_0.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <div class="column_custom has-text-centered">
+      <p><tt>office_1</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_1.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>office_2</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_2.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>office_3</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_3.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>office_4</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/office_4.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>room_0</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_0.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>room_1</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_1.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  
+    <div class="column_custom has-text-centered">
+      <p><tt>room_2</tt></p>
+      <video width="100%" autoplay loop plays-inline>
+        <source src="./static/videos/room_2.mp4" type="video/mp4" codecs="mp4v.20.240, mp4a.40.2">
+      Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
