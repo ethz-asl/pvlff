@@ -148,8 +148,7 @@ python scripts/demo_ui.py <dataset-dir>/<scene> \
     --checkpoint <lseg-weights>
 ```
 
-https://github.com/ethz-asl/pvlff/assets/33897834/eb56a15a-2b0d-45f0-9e20-b5e429f35f23
-
+https://github.com/ethz-asl/pvlff/assets/33897834/1c31a03a-c7e9-43dc-af83-de1cf471893e
 
 ## Citation
 
